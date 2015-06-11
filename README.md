@@ -17,6 +17,12 @@ example:
         def add(self, iterable):
             return sum(iterable)
 
+    f = Foo()
+    print(f.add(1,2))
+    print(f.add(1, "b"))
+    print(f.add([1,2,3]))
+    print(f.add("b", "a"))
+
 produces
 
     3
